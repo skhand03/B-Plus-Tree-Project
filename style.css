@@ -1,0 +1,120 @@
+
+.body {
+    -fx-background-color: radial-gradient(focus-distance 0%, center 52% 52%, radius 44%, #543663, #242842);
+}
+
+.title {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 32px;
+    -fx-text-fill: white;
+    -fx-pref-height: 50;
+    -fx-letter-spacing: 7px;
+}
+
+.button {
+    -fx-background-color: #878FA9;
+    -fx-font-family: Helvetica;
+    -fx-font-size: 16px;
+    -fx-start-margin: 20;
+    -fx-end-margin: 20;
+    -fx-pref-height: 40;
+    -fx-pref-width: 120;
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-letter-spacing: 0;
+    -fx-border-insets: 20px 0 0 20px;
+}
+
+.description {
+    opacity: 0.5;
+    -fx-border-color: #6C728E;
+    -fx-border-style: solid;
+    -fx-border-insets: 2px;
+}
+
+.descriptionHeader {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    /*-fx-pref-height: 50;*/
+    -fx-letter-spacing: 7px;
+}
+
+.descriptionBody {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 32px;
+    -fx-text-fill: white;
+    -fx-pref-height: 50;
+    -fx-letter-spacing: 7px;
+}
+
+.partHeader {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-letter-spacing: 2px;
+}
+
+.statusHeader {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-letter-spacing: 2px;
+}
+
+.statusBody {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 24px;
+    -fx-font-weight: 100;
+    -fx-text-fill: white;
+    -fx-letter-spacing: 5px;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: radial-gradient(focus-distance 0%, center 52% 52%, radius 44%, #543663, #242842);
+    -fx-text-fill: white;
+
+}
+
+.list-view {
+    -fx-font-family: Helvetica;
+    -fx-border-color: #6C728E;
+    -fx-border-style: solid;
+    -fx-border-insets: 1px;
+}
+
+/*.list-cell:even { !* <=== changed to even *!*/
+    /*-fx-background-color: #878FA9;*/
+/*}*/
+
+.list-cell:filled:hover {
+    -fx-background-color: #6C728E;
+    -fx-text-fill: white;
+}
+
+.scroll-pane {
+    -fx-background-color: white;
+}
+
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #6C728E;
+    -fx-background-radius: 5em;
+}
